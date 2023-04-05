@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="../CSS/stylesheet.css" />
-    <!-- From Wowburger Element, in HTML &amp is a reserved character so you have to use this entity to have it show -->
-    <title>WOWBURGER | Burger Delivery, Burger Takeaway, Burger Dublin &amp; Cork</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Car Manufacturer - Homepage</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="jscript/main.js"></script>
 </head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="logo">Car Manufacturer</a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<body id="body-homepage">
+  <main>
+    <section class="hero-banner">
+      <div class="banner-content">
+        <h1>Welcome to Car Manufacturer</h1>
+        <p>Discover our range of innovative and performance-driven vehicles.</p>
+        <a href="product.html" class="btn">Explore Our Cars</a>
+      </div>
+    </section>
 
-    <!-- Logo -->
-    <a class="top-middle anchor-style" href="index.html">
-        <img src="../Images/logo.jpg" alt="Order Button" width="250" height="70">
-    </a>
-    <!-- Grouped buttons in one anchor -->
-    <a href="offers.html">
-        <!-- Order Online, centered-->
-        <img class="middle-middle order-online-anchor" src="../Images/order.jpg" alt="Order Button">
-        <!-- Order Now, top-right-->
-        <span class="top-right anchor-style wow-font">ORDER NOW</span>
-        <!-- View Our Menu, bottom middle-->
-        <span class="bottom-middle anchor-style wow-font" id="order-anchor">VIEW OUR MENU</span>
-    </a>
-    <!-- Hamburger Menu -->
-    <div class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" />
+    <section class="features">
+      <!-- Add feature highlights of your car models here -->
+    </section>
+  </main>
 
-        <label class="menu__btn" for="menu__toggle">
-            <span></span>
-        </label>
-        <!-- Menu Options -->
-        <ul class="menu__box">
-            <li><a class="menu__item" href="index.html">Homepage</a></li>
-            <li><a class="menu__item" href="offers.html">Offers</a></li>
-            <li><a class="menu__item" href="order.html">Order</a></li>
-        </ul>
-    </div>
-
+  <footer>
+    <p>&copy; 2023 Car Manufacturer. All Rights Reserved.</p>
+  </footer>
 </body>
-
 </html>
