@@ -1,0 +1,14 @@
+/* Center Logo above navbar*/
+.logo {
+    display: grid;
+    place-items: center;
+}
+/* add bg image from images folder */
+.bg-image {
+    background-image: url(/images/bg-image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+}
