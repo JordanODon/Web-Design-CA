@@ -29,7 +29,7 @@ font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: left;
     padding: 0 2rem;
-    background: url(../Images/Red Tesla Transparent.png);
+    background: (../Images/Red Tesla Transparent.png);
     background-repeat: no-repeat;
     /* Screen resize always avoids text */
     background-position: bottom right;
