@@ -1,14 +1,50 @@
-/* Center Logo above navbar*/
+
 .logo {
     display: grid;
     place-items: center;
 }
-/* add bg image from images folder */
-.bg-image {
-    background-image: url(/images/bg-image.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-   
+/* google fonts */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+    
+font-family: 'Poppins', sans-serif;
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
 }
+
+.navbar a:hover{
+  color: var(--main-color);
+  
+}
+
+.home{
+    max-width: 1300px;
+    margin: auto;
+    width:100%;
+    min-height: 640px;
+    display: flex;
+    align-items: left;
+    padding: 0 2rem;
+    background: url(../images/Red\ Tesla\ Transparent.png);
+    background-repeat: no-repeat;
+    /* Screen resize always avoids text */
+    background-position: bottom right;
+    background-size: 80%;
+
+}
+
+.home-text h1{
+    font-size: 2.4rem;   
+}
+.home-text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+    
+}
+
