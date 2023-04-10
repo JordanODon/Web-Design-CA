@@ -1,4 +1,5 @@
 
+/* global styling */
 .logo {
     display: grid;
     place-items: center;
@@ -16,13 +17,10 @@ font-family: 'Poppins', sans-serif;
     padding: 1rem 2rem;
 }
 
-.navbar a:hover{
-  color: var(--main-color);
-  
-}
+/* homepage styling */
 
 .home{
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
     width:100%;
     min-height: 640px;
@@ -34,20 +32,24 @@ font-family: 'Poppins', sans-serif;
     /* Screen resize always avoids text */
     background-position: bottom right;
     background-size: 80%;
-
 }
 
-.home-text h1{
-    font-size: 2.4rem;   
-}
-.home-text p {
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 0.5rem 0;
-    
-}
+/* product a page styling */
 
-.testFontHere {
-    Please update the file :)
-}
+
+
+/* product b page styling */
+
+
+
+/* servicing page styling */
+
+
+
+
+/* AboutUs Page styling */
+
+
+
+
+/* Contact Us Page styling */
