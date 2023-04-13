@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- fontawesome script -->
     <script src="https://kit.fontawesome.com/8288c399a8.js" crossorigin="anonymous"></script>
-    
+
     <!------------------------ Bootstrap CDN Link ----------------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <!--------------------- Bootstrap CDN Link ---------------->
+    <!--------------------- Bootstrap CDN Link ---------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
@@ -28,23 +28,23 @@
                     <img src="Images/LogoNCIRL.jpg" alt="logo" width="450" height="200">
                 </a>
             </div>
-                      
+
             <!-- We don't need to change the links below this line - This is Ok -->
             <!-- navbar at top of page -->
-                                   
+
             <div class="container">
                 <header class="d-flex flex-wrap justify-content-center" id="navbar">
                     <ul class="nav nav-pills flex-column flex-sm-row">
-                        <li><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                        <li><a href="Index.html" class="nav-link">Home</a></li>
                         <!-- dropdown menu for products -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                                 aria-expanded="false">Products</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="model3.html">model3</a></li>
-                                <li><a class="dropdown-item" href="modelS.html">modelS</a></li>                                
+                                <li><a class="dropdown-item" href="model3.html">Model 3</a></li>
+                                <li><a class="dropdown-item" href="modelS.html">Model S</a></li>
                             </ul>
-                        <li><a href="Servicing.html" class="nav-link">Servicing</a></li>
+                        <li><a href="Servicing.html" class="nav-link active" aria-current="page">Servicing</a></li>
                         <li><a href="AboutUs.html" class="nav-link">About</a></li>
                         <li><a href="contactUs.html" class="nav-link">Contact</a></li>
                     </ul>
@@ -52,81 +52,95 @@
             </div>
             <br>
             <br>
-        <!-- end of navbar -->
-        <!-- start of main content -->
-        
-        
+            <!-- end of navbar -->
+            <!-- start of main content -->
+
+
     </main>
 
-<div class="hero-banner>
-    <h3>Our Services</h3>
-</div>
-<div class="container">
-    <div class="row-leader">
-        <!-- statement offering services -->
-        <p>At NCI Cars&#1071;Us we offer a wide range of services to our customers. We have a team of highly trained mechanics who are able to service and repair all makes and models of cars.</p>
+    <<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
-     <!-- 3 images horizontal row with description and buttons underneath  -->
-    <div class="row">
-        <div class="col-md-4" col-sm-12">
-            <img src="Images/tesla-service.jpg" alt="Car Service" width="300" height="200">
-            <h4>Car Service</h4>
-            <p>Our car service includes a full inspection of your car</p>
-            <button type="button" class="btn btn-primary">Book Now</button>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/Images/TeslaBatteries.jpg" class="d-block w-100" alt="Tesla Battery Replacement">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>We offer battery conversion services</h5>
+                    <p>We are the first in the world to convert a Tesla to regular battery technology</p>
+                </div>I
+            </div>
+            <div class="carousel-item">
+                <img src="/Images/tesla-service-center-model-x-01.png" class="d-block w-100" alt="Service Center">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>On Site Diagnostics</h5>
+                    <p>Our technicians are trained to diagnose and repair your Tesla on site</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/Images/tesla-service.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Service</h5>
+                    <!-- text describing service options -->
+                    <p>We are fully supported by the manufacturer in all aspects of your scheduled servicing routines
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-4">
-            <img src="Images/TeslaBatteryLandscape.jpeg" alt="Battery Change" width="300" height="200">
-            <h4>Battery Change</h4>
-            <p>Our patented technology now allows us to supercharge your tesla with new batteries</p>
-            <button type="button" class="btn btn-primary">Book Now</button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
         </div>
-        <div class="col-sm-4">
-            <img src="Images/Tyres.jpg" alt="Tyre Service" width="300" height="200">
-            <h4>Tyre maintenance and replacement</h4>
-            <p>Our team of dedicated tech have access to all of Tesla's databases and tools to troubleshoot as quickly as possible</p>
-            <button type="button" class="btn btn-primary">Book Now</button>
-        </div>
-
-    
 
 
 
+        <!-- We only need to change the links below this line - This is Ok -->
+        <!-- footer center aligned -->
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Servicing</a></li>
+                <li class="nav-item"><a href="AboutUs.html" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item"><a href="contactUs.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+            </ul>
+
+            <p class="text-center text-body-secondary">Follow us on social media</p>
+            <!-- add font awesome media links  -->
+            <div class="d-flex justify-content-center">
+                <a href="https://github.com/JordanODon/Web-Design-CA"
+                    class="me-4 text-body-secondary text-decoration-none">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://fontawesome.com/" class="me-4 text-body-secondary text-decoration-none">
+                    <i class="fab fa-font-awesome fa-2x"></i>
+                </a>
+                <a href="https://ie.linkedin.com/" class="me-4 text-body-secondary text-decoration-none">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://discord.com/" class="me-4 text-body-secondary text-decoration-none">
+                    <i class="fab fa-discord fa-2x"></i>
+                </a>
+                <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                    class="me-4 text-body-secondary text-decoration-none">
+                    <i class="fab fa-bootstrap fa-2x"></i>
+                </a>
+
+                <p class="text-center text-body-secondary">© 2023 NCI Cars&#1071;Us</p>
 
 
-<!-- We only need to change the links below this line - This is Ok -->
-    <!-- footer center aligned -->
-    <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="Servicing.html" class="nav-link px-2 text-body-secondary">Servicing</a></li>
-            <li class="nav-item"><a href="AboutUs.html" class="nav-link px-2 text-body-secondary">About</a></li>
-            <li class="nav-item"><a href="contactUs.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
-        </ul>
-
-        <p class="text-center text-body-secondary">Follow us on social media</p>
-        <!-- add font awesome media links  -->
-        <div class="d-flex justify-content-center">
-            <a href="https://github.com/JordanODon/Web-Design-CA" class="me-4 text-body-secondary text-decoration-none">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
-            <a href="https://fontawesome.com/" class="me-4 text-body-secondary text-decoration-none">
-                <i class="fab fa-font-awesome fa-2x"></i>
-            </a>            
-            <a href="https://ie.linkedin.com/" class="me-4 text-body-secondary text-decoration-none">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://discord.com/" class="me-4 text-body-secondary text-decoration-none">
-                <i class="fab fa-discord fa-2x"></i>
-            </a>
-            <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="me-4 text-body-secondary text-decoration-none">
-                <i class="fab fa-bootstrap fa-2x"></i>
-            </a>
-            
-        <p class="text-center text-body-secondary">© 2023 NCI Cars&#1071;Us</p>
-        
-
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </footer>
 </body>
 
 </html>
