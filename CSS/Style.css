@@ -1,6 +1,4 @@
-
 /* global styling */
-
 .logo {
     display: grid;
     place-items: center;
@@ -9,8 +7,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap');
     
-
-
 
 
 .navbar {
@@ -30,58 +26,94 @@
     display: flex;
     align-items: left;
     padding: 0 2rem;
-    background: url(../images/RedTesla.png);
+    background: url(../Images/RedTesla.png);
     background-repeat: no-repeat;
     /* Screen resize always avoids text */
     background-position: bottom right;
-    background-size: 80%;
+    background-size: 70%;
 }
 
+.home-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #000;
+    padding: 0 2rem;
+    margin: 0 2rem;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 10rem;
+}
 
-/* product a page styling */
+/* products page styling */
 
+.products{      
+    max-width: 1440px;
+    margin: auto;
+    width:100%;
+    min-height: 180px;
+    display: flex;
+    align-items: left;
+    padding: 0 2rem;       
+   }
 
+   /* servicing page styling */
+   /* carousel slide styling */
+    .carousel{
+     max-width: 1440px;
+     margin: auto;
+     width:100%;
+     min-height: 180px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+         
+    }
+    /* text styling for carousel */
+    .carousel-caption{
+        text-align: right;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 300;
+        background-color: grey;
+        border-radius: 10px;
 
-/* product b page styling */
-
-
-
-/* servicing page styling */
-
-
-
-
-
-/* service4 image border */
-
-
-
-    
-
-
-
-/* AboutUs Page styling */
-
-
-
-
-
-
-
-
-
+   /* AboutUs Page styling */
 
 /* Contact Us Page styling */
+
+
 /* width and padding for ContactUs form */
-
-
-body,html{
-    min-height:100%;
-
 }
 #container-form{
     border: #000 2px solid;
     border-radius: 5px;
+    /* text position */
+    
+}
+#container-form h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+}
+/* button styling */
+#container-form button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 100%;
+    padding: 10px;
+    margin:10px 0;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: darkgray;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+    
 }
 
 .form-group {
@@ -106,19 +138,3 @@ body,html{
     border: 2px solid #000;
     box-shadow: 0 0 5px #3f09e2;
 }
-
-
-
-
-
-
-
-     
-
-
-
-
-
-
-
-
