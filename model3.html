@@ -35,14 +35,14 @@
             <div class="container">
                 <header class="d-flex flex-wrap justify-content-center" id="navbar">
                     <ul class="nav nav-pills flex-column flex-sm-row">
-                        <li><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                        <li><a href="Index.html" class="nav-link">Home</a></li>
                         <!-- dropdown menu for products -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                                 aria-expanded="false">Products</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="model3.html">model3</a></li>
-                                <li><a class="dropdown-item" href="modelS.html">modelS</a></li>
+                                <li><a class="dropdown-item" href="model3.html">Model 3</a></li>
+                                <li><a class="dropdown-item" href="modelS.html">Model S</a></li>
                             </ul>
                         <li><a href="Servicing.html" class="nav-link">Servicing</a></li>
                         <li><a href="AboutUs.html" class="nav-link">About</a></li>
@@ -54,54 +54,101 @@
             <br>
             <!-- All of your content goes between this comment and the footer comment -->
 
-            <div class="container-fluid">
+            <script>
+                // function to hide divs
+                function hideDivs() {
+                    document.getElementById("white").style.display = "block";
+                    document.getElementById("blue").style.display = "none";
+                    document.getElementById("red").style.display = "none";
+                    document.getElementById("silver").style.display = "none";
 
-                <div class="row g-6">
-                    <div class="col">
-                        <div class="box">
-                            <img src="Images/whitetesla.jpg" alt="picture of white tesla" width="500" height="600">
-                        </div>
+                }
+
+                // alert choice options
+                function alertChoice() {
+                    var userChoice = document.getElementById("colour").value;
+                    if (userChoice == "white") {
+                        document.getElementById("white").style.display = "block";
+                        document.getElementById("blue").style.display = "none";
+                        document.getElementById("red").style.display = "none";
+                        document.getElementById("silver").style.display = "none";
+                    }
+                    if (userChoice == "blue") {
+                        document.getElementById("white").style.display = "none";
+                        document.getElementById("blue").style.display = "block";
+                        document.getElementById("red").style.display = "none";
+                        document.getElementById("silver").style.display = "none";
+                    }
+                    if (userChoice == "red") {
+                        document.getElementById("white").style.display = "none";
+                        document.getElementById("blue").style.display = "none";
+                        document.getElementById("red").style.display = "block";
+                        document.getElementById("silver").style.display = "none";
+                    }
+                    if (userChoice == "silver") {
+                        document.getElementById("white").style.display = "none";
+                        document.getElementById("blue").style.display = "none";
+                        document.getElementById("red").style.display = "none";
+                        document.getElementById("silver").style.display = "block";
+                    }
+
+                }
+
+            </script>
+            <section class="products">
+                <div class="products-text">
+                    <h1>Welcome to Cars&#1071;Us</h1>
+                    <p>Performance Model 3</p>
+                    <br>
+                    <p>Range - 602 km</p>
+
+                    <p>Top Speed - 260 km/h</p>
+
+
+                    <p>Acceleration - 0-100 km/h - 3.1s</p>
+
+                    <p>Dual Motor - A.W.D</p>
+
+                </div>
+
+
+                <div class="bg-image">
+                    <div id="white">
+                        <img src="/Images/2022-Tesla-Model-3-Pearl-White-Multi-Coat.jpg" class="img-fluid"
+                            alt="White Tesla 3">
+
+                    </div>
+                    <div id="blue">
+                        <img src="/Images/2022-Tesla-Model-3-Deep-Blue-Metallic.jpg" class="img-fluid"
+                            alt="Blue Tesla 3">
+
+                    </div>
+                    <div id="red">
+                        <img src="/Images/2022-Tesla-Model-3-Red-Multi-Coat.jpg" class="img-fluid" alt="Red Tesla 3">
+
+                    </div>
+                    <div id="silver">
+                        <img src="/Images/2022-Tesla-Model-3-Midnight-Silver-Metallic.jpg" class="img-fluid"
+                            alt="Silver Tesla 3">
+
                     </div>
                 </div>
-                <div class="row g-3">
-                    <table class="col-6">
-                        <thead>
+            </section>
+            <!-- choose your favourite model and color tesla from the selection -->
 
-                            <th> Performance Model 3</th>
+            <h3>Choose your favourite colour</h3>
 
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td> Range</td>
-                                <td> 602 km</td>
-                            </tr>
-                            <tr>
-                                <td> Acceleration</td>
-                                <td> 0-100Km/hr : 3.35 Seconds</td>
-                            </tr>
-                            <tr>
-                                <td> Dual Motor</td>
-                                <td> A.W.D.</td>
-                            </tr>
+            <body onload="hideDivs();">
+                <select id="colour" onchange="alertChoice()">
+                    <h2>Choose your favourite color</h2>
+                    <option value="">Select a colour</option>
+                    <option value="white">Pearl White Multi Coat</option>
+                    <option value="blue">Deep Blue Metallic</option>
+                    <option value="red">Red Multicoat</option>
+                    <option value="silver">Silver Metallic</option>
+                </select>
 
-                        </tbody>
-                    </table>
-                    <div class="col-6">
-                        <div class="box">
-                            <img src="Images/whitetesla2.jpg" alt="picture of white tesla" width="500" height="600">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-
-
-
-
-
+            </body>
 
     </main>
 
