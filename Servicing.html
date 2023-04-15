@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <main>
+    <header>
         <!-- logo above nav bar  -->
         <div class="logo">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -53,63 +53,64 @@
                 </ul>
             </header>
         </div>
-        <br>
-        <br>
-        <!-- All of your content goes between this comment and the footer comment -->
-
+    </header>
+    <br>
+    <br>
+    <!-- All of your content goes between this comment and the footer comment -->
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/TeslaBatteries.jpg" class="d-block w-100" alt="Tesla Battery Replacement">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>We offer battery conversion services</h5>
+                        <p>We are the first in the world to convert a Tesla to regular battery technology</p>
+                    </div>I
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/tesla-service-center-model-x-01.png" class="d-block w-100" alt="Service Center">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>On Site Diagnostics</h5>
+                        <p>Our technicians are trained to diagnose and repair your Tesla on site</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/tesla-service.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Service</h5>
+                        <!-- text describing service options -->
+                        <p>We are fully supported by the manufacturer in all aspects of your scheduled servicing
+                            routines
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
     </main>
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="Images/TeslaBatteries.jpg" class="d-block w-100" alt="Tesla Battery Replacement">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>We offer battery conversion services</h5>
-                    <p>We are the first in the world to convert a Tesla to regular battery technology</p>
-                </div>I
-            </div>
-            <div class="carousel-item">
-                <img src="Images/tesla-service-center-model-x-01.png" class="d-block w-100" alt="Service Center">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>On Site Diagnostics</h5>
-                    <p>Our technicians are trained to diagnose and repair your Tesla on site</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Images/tesla-service.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Service</h5>
-                    <!-- text describing service options -->
-                    <p>We are fully supported by the manufacturer in all aspects of your scheduled servicing routines
-                    </p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
     <!-- We only need to change the links below this line - This is Ok -->
     <!-- footer center aligned -->
     <footer class="py-3 my-4">
