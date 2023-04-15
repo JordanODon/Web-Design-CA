@@ -25,131 +25,130 @@
         <!-- logo above nav bar  -->
         <div class="logo">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
                     <img src="Images/LogoNCIRL.jpg" alt="logo" width="450" height="200">
                 </a>
             </div>
+        </div>
+        <!-- We don't need to change the links below this line - This is Ok -->
+        <!-- navbar at top of page -->
 
-            <!-- We don't need to change the links below this line - This is Ok -->
-            <!-- navbar at top of page -->
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center" id="navbar">
+                <ul class="nav nav-pills flex-column flex-sm-row">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <!-- dropdown menu for products -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="model3.html">Model 3</a></li>
+                            <li><a class="dropdown-item" href="modelS.html">Model S</a></li>
+                        </ul>
+                    <li><a href="Servicing.html" class="nav-link">Servicing</a></li>
+                    <li><a href="AboutUs.html" class="nav-link">About</a></li>
+                    <li><a href="contactUs.html" class="nav-link">Contact</a></li>
+                </ul>
+            </header>
+        </div>
+        <br>
+        <br>
+        <!-- All of your content goes between this comment and the footer comment -->
 
-            <div class="container">
-                <header class="d-flex flex-wrap justify-content-center" id="navbar">
-                    <ul class="nav nav-pills flex-column flex-sm-row">
-                        <li><a href="index.html" class="nav-link">Home</a></li>
-                        <!-- dropdown menu for products -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Products</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="model3.html">Model 3</a></li>
-                                <li><a class="dropdown-item" href="modelS.html">Model S</a></li>
-                            </ul>
-                        <li><a href="Servicing.html" class="nav-link">Servicing</a></li>
-                        <li><a href="AboutUs.html" class="nav-link">About</a></li>
-                        <li><a href="contactUs.html" class="nav-link">Contact</a></li>
-                    </ul>
-                </header>
-            </div>
-            <br>
-            <br>
-            <!-- All of your content goes between this comment and the footer comment -->
+        <script>
+            // function to hide divs
+            function hideDivs() {
+                document.getElementById("white").style.display = "block";
+                document.getElementById("blue").style.display = "none";
+                document.getElementById("red").style.display = "none";
+                document.getElementById("silver").style.display = "none";
 
-            <script>
-                // function to hide divs
-                function hideDivs() {
+            }
+
+            // alert choice options
+            function alertChoice() {
+                var userChoice = document.getElementById("colour").value;
+                if (userChoice == "white") {
                     document.getElementById("white").style.display = "block";
                     document.getElementById("blue").style.display = "none";
                     document.getElementById("red").style.display = "none";
                     document.getElementById("silver").style.display = "none";
-
+                }
+                if (userChoice == "blue") {
+                    document.getElementById("white").style.display = "none";
+                    document.getElementById("blue").style.display = "block";
+                    document.getElementById("red").style.display = "none";
+                    document.getElementById("silver").style.display = "none";
+                }
+                if (userChoice == "red") {
+                    document.getElementById("white").style.display = "none";
+                    document.getElementById("blue").style.display = "none";
+                    document.getElementById("red").style.display = "block";
+                    document.getElementById("silver").style.display = "none";
+                }
+                if (userChoice == "silver") {
+                    document.getElementById("white").style.display = "none";
+                    document.getElementById("blue").style.display = "none";
+                    document.getElementById("red").style.display = "none";
+                    document.getElementById("silver").style.display = "block";
                 }
 
-                // alert choice options
-                function alertChoice() {
-                    var userChoice = document.getElementById("colour").value;
-                    if (userChoice == "white") {
-                        document.getElementById("white").style.display = "block";
-                        document.getElementById("blue").style.display = "none";
-                        document.getElementById("red").style.display = "none";
-                        document.getElementById("silver").style.display = "none";
-                    }
-                    if (userChoice == "blue") {
-                        document.getElementById("white").style.display = "none";
-                        document.getElementById("blue").style.display = "block";
-                        document.getElementById("red").style.display = "none";
-                        document.getElementById("silver").style.display = "none";
-                    }
-                    if (userChoice == "red") {
-                        document.getElementById("white").style.display = "none";
-                        document.getElementById("blue").style.display = "none";
-                        document.getElementById("red").style.display = "block";
-                        document.getElementById("silver").style.display = "none";
-                    }
-                    if (userChoice == "silver") {
-                        document.getElementById("white").style.display = "none";
-                        document.getElementById("blue").style.display = "none";
-                        document.getElementById("red").style.display = "none";
-                        document.getElementById("silver").style.display = "block";
-                    }
+            }
 
-                }
+        </script>
+        <section class="products">
+            <div class="products-text">
+                <h1>Welcome to Cars&#1071;Us</h1>
+                <p>Performance Model 3</p>
+                <br>
+                <p>Range - 602 km</p>
 
-            </script>
-            <section class="products">
-                <div class="products-text">
-                    <h1>Welcome to Cars&#1071;Us</h1>
-                    <p>Performance Model 3</p>
-                    <br>
-                    <p>Range - 602 km</p>
-
-                    <p>Top Speed - 260 km/h</p>
+                <p>Top Speed - 260 km/h</p>
 
 
-                    <p>Acceleration - 0-100 km/h - 3.1s</p>
+                <p>Acceleration - 0-100 km/h - 3.1s</p>
 
-                    <p>Dual Motor - A.W.D</p>
+                <p>Dual Motor - A.W.D</p>
+
+            </div>
+
+
+            <div class="bg-image">
+                <div id="white">
+                    <img src="/Images/2022-Tesla-Model-3-Pearl-White-Multi-Coat.jpg" class="img-fluid"
+                        alt="White Tesla 3">
 
                 </div>
+                <div id="blue">
+                    <img src="/Images/2022-Tesla-Model-3-Deep-Blue-Metallic.jpg" class="img-fluid" alt="Blue Tesla 3">
 
-
-                <div class="bg-image">
-                    <div id="white">
-                        <img src="/Images/2022-Tesla-Model-3-Pearl-White-Multi-Coat.jpg" class="img-fluid"
-                            alt="White Tesla 3">
-
-                    </div>
-                    <div id="blue">
-                        <img src="/Images/2022-Tesla-Model-3-Deep-Blue-Metallic.jpg" class="img-fluid"
-                            alt="Blue Tesla 3">
-
-                    </div>
-                    <div id="red">
-                        <img src="/Images/2022-Tesla-Model-3-Red-Multi-Coat.jpg" class="img-fluid" alt="Red Tesla 3">
-
-                    </div>
-                    <div id="silver">
-                        <img src="/Images/2022-Tesla-Model-3-Midnight-Silver-Metallic.jpg" class="img-fluid"
-                            alt="Silver Tesla 3">
-
-                    </div>
                 </div>
-            </section>
-            <!-- choose your favourite model and color tesla from the selection -->
+                <div id="red">
+                    <img src="/Images/2022-Tesla-Model-3-Red-Multi-Coat.jpg" class="img-fluid" alt="Red Tesla 3">
 
-            <h3>Choose your favourite colour</h3>
+                </div>
+                <div id="silver">
+                    <img src="/Images/2022-Tesla-Model-3-Midnight-Silver-Metallic.jpg" class="img-fluid"
+                        alt="Silver Tesla 3">
 
-            <body onload="hideDivs();">
-                <select id="colour" onchange="alertChoice()">
-                    <h2>Choose your favourite color</h2>
-                    <option value="">Select a colour</option>
-                    <option value="white">Pearl White Multi Coat</option>
-                    <option value="blue">Deep Blue Metallic</option>
-                    <option value="red">Red Multicoat</option>
-                    <option value="silver">Silver Metallic</option>
-                </select>
+                </div>
+            </div>
+        </section>
+        <!-- choose your favourite model and color tesla from the selection -->
 
-            </body>
+        <h3>Choose your favourite colour</h3>
+
+        <body onload="hideDivs();">
+            <select id="colour" onchange="alertChoice()">
+                <h2>Choose your favourite color</h2>
+                <option value="">Select a colour</option>
+                <option value="white">Pearl White Multi Coat</option>
+                <option value="blue">Deep Blue Metallic</option>
+                <option value="red">Red Multicoat</option>
+                <option value="silver">Silver Metallic</option>
+            </select>
+
+        </body>
 
     </main>
 
