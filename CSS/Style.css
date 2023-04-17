@@ -35,7 +35,7 @@
 
 .home-text{
     font-family: 'Poppins', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     font-style: italic;
     color: #000;
@@ -54,7 +54,7 @@
     width:100%;
     min-height: 180px;
     display: flex;
-    align-items: left;
+    align-items: center;
     padding: 0 2rem;       
    }
 
