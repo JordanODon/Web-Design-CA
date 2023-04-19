@@ -139,9 +139,7 @@
     box-shadow: 0 0 5px #3f09e2;
 }
 
-.about_us_img {
-    width: 100%;
-    height: auto;
-    max-width: 500px;
-    object-fit: cover;
+.about_usimg {
+  width: 520px;
+  height: 280px;
 }
