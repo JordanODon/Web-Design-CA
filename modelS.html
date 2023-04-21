@@ -101,9 +101,7 @@
 						alt="Silver Tesla S">
 				</div>
 
-				<div id="black">
-					<img src="Images/2022-Tesla-Model-S-Solid-Black.jpg" class="img-fluid" alt="Black Tesla S">
-				</div>
+				
 			</div>
 		</section>
 		<!-- choose your favourite model and color tesla from the selection -->
@@ -111,14 +109,14 @@
 		<h5>Choose your favourite colour</h5>
 
 		<body onload="hideDivs();">
-			<select id="colour" onchange="alertChoice()">
+			<select id="colour" onchange="alertChoice()"onchange="hideDivs()">
 				<h2>Choose your favourite color</h2>
 				<option value="">Select a colour</option>
 				<option value="white">Pearl White Multi Coat</option>
 				<option value="blue">Deep Blue Metallic</option>
 				<option value="red">Red Multicoat</option>
 				<option value="silver">Silver Metallic</option>
-				<option value="black">Solid Black</option>
+				
 			</select>
 		</body>
 		

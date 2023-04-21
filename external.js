@@ -3,7 +3,7 @@ function hideDivs() {
 	document.getElementById("blue").style.display = "none";
 	document.getElementById("red").style.display = "none";
 	document.getElementById("silver").style.display = "none";
-	document.getElementById("black").style.display = "none";
+	
 
 }
 
@@ -11,6 +11,8 @@ function alertChoice() {
 
 
     var userChoice = document.getElementById("colour").value;
+
+					
 	                if (userChoice == "white") {
 	                    document.getElementById("white").style.display = "block";
 	                    document.getElementById("blue").style.display = "none";
@@ -35,13 +37,7 @@ function alertChoice() {
 	                    document.getElementById("red").style.display = "none";
 	                    document.getElementById("silver").style.display = "block";
 	                }
-					if (userChoice == "black") {
-						document.getElementById("white").style.display = "none";
-						document.getElementById("blue").style.display = "none";
-						document.getElementById("red").style.display = "none";
-						document.getElementById("silver").style.display = "none";
-						document.getElementById("black").style.display = "block";
-					}
+					
 	
 
 }
