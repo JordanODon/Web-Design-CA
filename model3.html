@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="CSS/Style.css">
+	<script type="text/javascript" src="external.js"></script>
 	<!-- fontawesome script -->
 	<script src="https://kit.fontawesome.com/8288c399a8.js" crossorigin="anonymous"></script>
 
@@ -36,7 +37,6 @@
 				</a>
 			</div>
 		
-		<!-- We don't need to change the links below this line - This is Ok -->
 		<!-- navbar at top of page -->
 
 
@@ -59,69 +59,26 @@
 			</header>
 		</div>
 		<br>
-		<br>
-	<!-- All of your content goes between this comment and the footer comment -->
-	
-		<script>
-			// function to hide divs
-			function hideDivs() {
-				document.getElementById("white").style.display = "block";
-				document.getElementById("blue").style.display = "none";
-				document.getElementById("red").style.display = "none";
-				document.getElementById("silver").style.display = "none";
-
-
-			}
-
-
-			// alert choice options
-			function alertChoice() {
-				var userChoice = document.getElementById("colour").value;
-				if (userChoice == "white") {
-					document.getElementById("white").style.display = "block";
-					document.getElementById("blue").style.display = "none";
-					document.getElementById("red").style.display = "none";
-					document.getElementById("silver").style.display = "none";
-				}
-				if (userChoice == "blue") {
-					document.getElementById("white").style.display = "none";
-					document.getElementById("blue").style.display = "block";
-					document.getElementById("red").style.display = "none";
-					document.getElementById("silver").style.display = "none";
-				}
-				if (userChoice == "red") {
-					document.getElementById("white").style.display = "none";
-					document.getElementById("blue").style.display = "none";
-					document.getElementById("red").style.display = "block";
-					document.getElementById("silver").style.display = "none";
-				}
-				if (userChoice == "silver") {
-					document.getElementById("white").style.display = "none";
-					document.getElementById("blue").style.display = "none";
-					document.getElementById("red").style.display = "none";
-					document.getElementById("silver").style.display = "block";
-				}
-
-
-			}
-
-		</script>
+				
+			
 		<section class="products">
 			<div class="products-text">
-				<h1>Welcome to Cars&#1071;Us</h1>
+				<h3>Welcome to Cars&#1071;Us</h3>
 
-				<p>Performance Model 3</p>
-				<br>
-				<p>Range - 602 km</p>
-				<p>Top Speed - 260 km/h</p>
-				<p>Acceleration - 0-100 km/h - 3.1s</p>
-				<p>Dual Motor - A.W.D</p>
+				<h4>Model 3 Performance </h4>
+				
+				<ul>
+					<li> Range - 602 km</li>
+					<li> Top Speed - 260 km/h</li>
+					<li> Acceleration - 0-100 km/h - 3.1s</li>
+					<li> Dual Motor - A.W.D	</li>
+				</ul>
 
-				<p> Safety</p>
-				<p> Safety is the most important part of the overall Model 3 design.</p><br>
-				<p>The metal structure is a combination of aluminum and steel,<br>
-					for maximum strenght in every area. In a roof crush test, <br>
-					Model 3 resisted 4 times its own mass, even with an all glass roof: <br>
+				<h4> Safety</h4>
+				<p> Safety is the most important part of the overall Model 3 design.
+					The metal structure is a combination of aluminum and steel,
+					for maximum strenght in every area. In a roof crush test, 
+					Model 3 resisted 4 times its own mass, even with an all glass roof: 
 					thats the same weight as two fully grown African Elephants</p>
 			</div>
 
@@ -147,8 +104,8 @@
 
 		</section>
 		<!-- choose your favourite model and color tesla from the selection -->
-		<!-- Smaller headet for dropdown option box -->
-		<h3>Choose your favourite colour</h3>
+		<!-- Smaller header for dropdown option box -->
+		<h5>Choose your favourite colour</h5>
 
 		<!-- dropdown option box calling function to change colour -->
 		<body onload="hideDivs();">
@@ -163,8 +120,6 @@
 		</body>
 
 
-
-
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -172,7 +127,6 @@
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"></script>
 	</main>
-	<!-- We only need to change the links below this line - This is Ok -->
 	<!-- footer center aligned -->
 	<footer class="py-3 my-4">
 		<ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -216,6 +170,3 @@
 
 
 </html>
-Give feedback
-Footer
-© 2023 GitHub, Inc.

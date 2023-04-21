@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="CSS/Style.css">
+	<script type="text/javascript" src="external.js"></script>
 	<!-- fontawesome script -->
 	<script src="https://kit.fontawesome.com/8288c399a8.js" crossorigin="anonymous"></script>
 
@@ -36,7 +37,6 @@
 				</a>
 			</div>
 		
-		<!-- We don't need to change the links below this line - This is Ok -->
 		<!-- navbar at top of page -->
 
 
@@ -60,88 +60,26 @@
 		</div>
 		<br>
 		<br>
-		<!-- All of your content goes between this comment and the footer comment -->
-		<!-- main content -->
-
-		<script>
-			// function to hide divs
-			function hideDivs() {
-				document.getElementById("white").style.display = "block";
-				document.getElementById("blue").style.display = "none";
-				document.getElementById("red").style.display = "none";
-				document.getElementById("silver").style.display = "none";
-				document.getElementById("black").style.display = "none";
-			}
-
-			// alert choice options
-			function alertChoice() {
-				var userChoice = document.getElementById("colour").value;
-				if (userChoice == "white") {
-					document.getElementById("white").style.display = "block";
-					document.getElementById("blue").style.display = "none";
-					document.getElementById("red").style.display = "none";
-					document.getElementById("silver").style.display = "none";
-					document.getElementById("black").style.display = "none";
-				}
-				if (userChoice == "blue") {
-					document.getElementById("white").style.display = "none";
-					document.getElementById("blue").style.display = "block";
-					document.getElementById("red").style.display = "none";
-					document.getElementById("silver").style.display = "none";
-					document.getElementById("black").style.display = "none";
-				}
-				if (userChoice == "red") {
-					document.getElementById("white").style.display = "none";
-					document.getElementById("blue").style.display = "none";
-					document.getElementById("red").style.display = "block";
-					document.getElementById("silver").style.display = "none";
-					document.getElementById("black").style.display = "none";
-				}
-				if (userChoice == "silver") {
-					document.getElementById("white").style.display = "none";
-					document.getElementById("blue").style.display = "none";
-					document.getElementById("red").style.display = "none";
-					document.getElementById("silver").style.display = "block";
-					document.getElementById("black").style.display = "none";
-				}
-				if (userChoice == "black") {
-					document.getElementById("white").style.display = "none";
-					document.getElementById("blue").style.display = "none";
-					document.getElementById("red").style.display = "none";
-					document.getElementById("silver").style.display = "none";
-					document.getElementById("black").style.display = "block";
-				}
-			}
-
-
-		</script>
+				
 		<section class="products">
 			<div class="products-text">
-				<h1>Welcome to Cars&#1071;Us</h1>
-				<p>Performance Model S</p>
+				<h3>Welcome to Cars&#1071;Us</h3>
 				<br>
-				<p>Dual Motor All Wheel Drive unlocks more range<br>
-					than any other vehicle in our current line up, <br>
-					with insane power and maximum control
-					<br>
-					Range - 652 km
-				</p>
-
-
-				<p>Model S Plaid has the quickest<br>
-					acceleration of any vehicle in production.<br>
-					Updated battery architecture for all Model S trims enables <br>
-					back-to-back track runs without performance degredation
-					<br>
-					Top Speed - 260 km/h
-				</p>
-
-
-
-				<p>Acceleration - 0-100 km/h - 2.1s</p>
-
-				<p>Dual Motor - A.W.D</p>
-
+				<h5>Model S Performance</h5>
+			
+				<ul> 
+					<li> Dual Motor All Wheel Drive unlocks more range
+					than any other vehicle in our current line up, 
+					with insane power and maximum control</li>
+					<li>	Range - 652 km </li>
+					<li>Model S Plaid has the quickest
+					acceleration of any vehicle in production.</li>
+					<li>Updated battery architecture for all Model S trims enables 
+					back-to-back track runs without performance degredation</li>
+					<li>Top Speed - 260 km/h</li>				
+					<li>Acceleration - 0-100 km/h - 2.1s</li>
+					<li>Dual Motor - A.W.D</li>
+				</ul>
 			</div>
 
 			<div class="bg-image">
@@ -170,7 +108,7 @@
 		</section>
 		<!-- choose your favourite model and color tesla from the selection -->
 
-		<h3>Choose your favourite colour</h3>
+		<h5>Choose your favourite colour</h5>
 
 		<body onload="hideDivs();">
 			<select id="colour" onchange="alertChoice()">
@@ -191,7 +129,6 @@
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"></script>
 	</main>
-	<!-- We only need to change the links below this line - This is Ok -->
 	<!-- footer center aligned -->
 	<footer class="py-3 my-4">
 		<ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -200,7 +137,6 @@
 			<li class="nav-item"><a href="AboutUs.html" class="nav-link px-2 text-body-primary">About</a></li>
 			<li class="nav-item"><a href="contactUs.html" class="nav-link px-2 text-body-primary">Contact</a></li>
 		</ul>
-
 
 		<p class="text-center text-body-primary">Follow us on social media</p>
 		<!-- add font awesome media links  -->
@@ -233,8 +169,3 @@
 
 
 </html>
-Give feedback
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-• Terms
